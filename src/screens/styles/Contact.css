@@ -33,6 +33,16 @@ button {
     background-color: rgba(253, 253, 253, 0.473);
     color: rgb(41, 0, 0);
     box-shadow: 1px 2px 1px rgba(107, 3, 3, 0.541);
+    font-family: 'argh';
+}
+
+button:hover {
+    background-color: rgba(136, 6, 6, 0.993);
+    color: white;
+    box-shadow: 3px 3px 3px 3px rgba(241, 8, 8, 0.671);
+    font-weight: 700;
+
+
 }
 
 @media screen and (min-width: 500px) {
