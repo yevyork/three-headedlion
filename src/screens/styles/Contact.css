@@ -2,3 +2,52 @@
     height: 500px;
     margin-top: 10%;
 }
+
+input, textarea {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.712);
+    margin: 1% auto;
+    /* border-radius: 3%; */
+    text-align: left;
+    /* background-color: rgba(255, 0, 0, 0.226); */
+    font-size: 13px;
+    font-family: 'argh';
+}
+
+input {
+    /* padding: 1% 10%; */
+    height: 30px;
+}
+
+textarea {
+    /* padding: 2% 20%; */
+    height: 50px;
+}
+
+button {
+    border: 1px solid rgba(0, 0, 0, 0.61);
+    padding: 2% 5%;
+    border-radius: 6%;
+    font-size: 13px;
+    background-color: rgba(253, 253, 253, 0.473);
+    color: rgb(41, 0, 0);
+    box-shadow: 1px 2px 1px rgba(107, 3, 3, 0.541);
+}
+
+@media screen and (min-width: 500px) {
+    .contact-container {
+        margin: 18% auto;
+    }
+    input, textarea {
+        font-size: 15px;
+        resize: none;
+        width: 70%;
+        
+    }
+
+    button {
+        font-size: 18px;
+        padding: 1% 2%
+    }
+}

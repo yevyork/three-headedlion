@@ -34,20 +34,21 @@ const encode = (data) => {
       const { name, email, message } = this.state;
       return (
           <div className="contact-container">
+              <p>We'd love to hear from you! <br></br>Drop us a <i>lion</i>.</p>
         <form onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
           <p>
             <label>
-              Your Name: <input type="text" name="name" value={name} onChange={this.handleChange} />
+              <input type="text" name="name" value={name} placeholder='Name'onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Your Email: <input type="email" name="email" value={email} onChange={this.handleChange} />
+              <input type="email" name="email" value={email} placeholder='E-Mail' onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              Message: <textarea name="message" value={message} onChange={this.handleChange} />
+              <textarea name="message" placeholder='Message' value={message} onChange={this.handleChange} />
             </label>
           </p>
           <p>
