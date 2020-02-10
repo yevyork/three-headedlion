@@ -24,7 +24,7 @@ const encode = (data) => {
       })
         .then(() => alert("Thanks! We'll get back to you as soon as we can!"))
         .catch(error => alert(error));
-
+        window.location='/'
       e.preventDefault();
     };
 
