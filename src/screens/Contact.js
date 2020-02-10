@@ -38,17 +38,17 @@ const encode = (data) => {
         <form onSubmit={this.handleSubmit} data-netlify="true" data-netlify-honeypot="bot-field">
           <p>
             <label>
-              <input type="text" name="name" value={name} placeholder='Name'onChange={this.handleChange} />
+              <input type="text" name="name" value={name} required placeholder='Name'onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              <input type="email" name="email" value={email} placeholder='E-Mail' onChange={this.handleChange} />
+              <input type="email" name="email" required value={email} placeholder='E-Mail' onChange={this.handleChange} />
             </label>
           </p>
           <p>
             <label>
-              <textarea name="message" placeholder='Message' value={message} onChange={this.handleChange} />
+              <textarea name="message" required placeholder='Message' value={message} onChange={this.handleChange} />
             </label>
           </p>
           <p>
