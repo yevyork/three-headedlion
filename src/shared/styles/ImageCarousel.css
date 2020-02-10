@@ -1,0 +1,9 @@
+.carousel-img {
+    width: 90%;
+}
+
+@media screen and (min-width: 500px) {
+    .carousel-img {
+        max-width: 40%;
+    }
+}

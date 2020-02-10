@@ -1,0 +1,59 @@
+@font-face {
+    src: url(../../fonts/Aaargh.ttf);
+    font-family: 'argh';
+}
+
+@font-face {
+    src: url(../../fonts/Arctik\ 1.ttf);
+    font-family: 'artic';
+}
+.main {
+    background-color: white(0, 0, 0);
+    overflow-y: none;
+    font-family: 'argh', sans-serif;
+}
+
+h3 {
+    font-family: 'artic', 'script';
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline;
+}
+.header-main-container, footer {
+    background: rgb(167, 33, 33);
+}
+.content {
+    padding-top: 150px;
+}
+.back-to-home {
+    display: none;
+}
+
+
+@media screen and (max-width: 501px) {
+    .back-to-home {
+        display: none;
+    }
+}
+@media screen and (min-width: 500px) {
+    .content {
+        padding-top: 5%;
+    }
+
+    .back-to-home {
+        text-decoration: none;
+        margin: 5% auto;
+        color: black;
+        border: 1px solid black;
+        padding: 1.5%;
+    }
+
+    .back-to-home:hover {
+        color: white;
+        background-color: black;
+        border: 1px solid white;
+    }
+}

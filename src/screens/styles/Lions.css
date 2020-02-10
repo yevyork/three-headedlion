@@ -1,0 +1,37 @@
+.lions-main-container {
+    display: flex;
+    flex-direction: column;
+}
+.lions {
+    font-size: 25px;
+    text-decoration: underline;
+}
+.lion-container {
+
+}
+
+.lion-headshot {
+    max-width: 50%;
+    
+}
+
+.lion-bio {
+    color: black;
+    margin: 10%;
+    font-size: 14px;
+}
+
+@media screen and (min-width: 500px) {
+
+    .lions {
+        padding-top: 14%;
+    }
+    .lion-headshot {
+        max-width: 30%;
+    }
+
+    .lion-bio {
+        font-size: 20px;
+        margin: 5% 18%;
+    }
+}

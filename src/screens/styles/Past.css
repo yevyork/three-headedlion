@@ -1,0 +1,38 @@
+.past-main-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.work-container {
+    
+}
+
+.work-img {
+    max-width: 90%;
+    margin-top: 10%;
+}
+
+.work-description {
+    color: black;
+    margin: 10%;
+    font-size: 14px;
+}
+
+.photo-credit {
+    font-size: 0.5em;
+}
+@media screen and (min-width: 500px) {
+    .work-img {
+        max-width: 70%;
+        margin-top: 5%;
+        padding-top: 12%;
+    }
+    h3 {
+        font-size: 30px;
+    }
+    .work-description {
+        font-size: 20px;
+        line-height: 25px;
+        margin: 2% 18%;
+    }
+    }
