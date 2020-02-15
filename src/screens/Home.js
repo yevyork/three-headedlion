@@ -18,7 +18,7 @@ function Home() {
                 <img src={firstsred} alt='next' className='next-up-img'/><br></br>
                 
                 <p className='next-up-description'><strong>Firsts</strong>, a poignant and often hilarious look into the minds of two people on a first date, shows how much we really have in common—if only we were brave enough to admit it! </p>
-                <a href='https://www.therianttheatre.com/item.php?id=472' target="_blank" rel="noopener noreferrer" className="tickets">GET TICKETS</a>
+                <a href='https://www.therianttheatre.com/item.php?id=121' target="_blank" rel="noopener noreferrer" className="tickets">GET TICKETS</a>
 
             </div>
             <div className='line'></div>
