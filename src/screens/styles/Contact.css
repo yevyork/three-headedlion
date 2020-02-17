@@ -5,6 +5,7 @@
 
 input, textarea {
     border: none;
+    border-radius: 0;
     outline: none;
     border-bottom: 1px solid rgba(0, 0, 0, 0.712);
     margin: 1% auto;
@@ -23,6 +24,7 @@ input {
 textarea {
     /* padding: 2% 20%; */
     height: 50px;
+    resize: none;
 }
 
 button {

@@ -32,7 +32,6 @@ const encode = (data) => {
 
     render() {
       const { name, email, message } = this.state;
-      console.log(this.state)
       return (
           <div className="contact-container">
               <p>We'd love to hear from you! <br></br>Drop us a <i>lion</i>.</p>
