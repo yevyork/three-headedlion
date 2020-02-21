@@ -18,7 +18,7 @@ function Home() {
                 <img src={firstsred} alt='next' className='next-up-img'/><br></br>
                 
                 <p className='next-up-description'><strong>Firsts</strong>, a poignant and often hilarious look into the minds of two people on a first date, shows how much we really have in common—if only we were brave enough to admit it! </p>
-                <a href='https://www.therianttheatre.com/item.php?id=121' target="_blank" rel="noopener noreferrer" className="tickets">GET TICKETS</a>
+                <a href='https://www.therianttheatre.com/item.php?id=415' target="_blank" rel="noopener noreferrer" className="tickets">GET TICKETS</a>
 
             </div>
             <div className='line'></div>
@@ -26,7 +26,6 @@ function Home() {
             <div className='coming-soon-container'>
                 <p className='next-up-text'>Coming Soon:</p>
                 <h3 className='coming-soon-title'>STUCK</h3>
-                <p className='next-up-description'>Check out the trailer for the upcoming short film</p>
                 <div className='video-container'>
                 <iframe title='trailer' width="315" src="https://www.youtube.com/embed/3DW_R45J9iI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>
                 <div className='line'></div>

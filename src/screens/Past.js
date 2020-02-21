@@ -17,7 +17,6 @@ function Past() {
                 <p className='work-description'>A darkly comedic multimedia romp, Abdication! spins a tale of relatable characters grappling with two choices: 1. fight for their independence of thought and feeling, or 2. abdicate their responsibilities and succumb to a life that’s easier in the short run.
 
 A tongue-in-cheek view of technocratic society, it depicts the near future not only with dystopian gloom but with a heavy dose of humor, shining a light on our shared human experience while faced with this critical question. What would you give up?</p>
-<p className='work-description'>Photos!</p>
 <p className='photo-credit'>Credit: Liz Devine</p>
 <ImageCarousel />
             </div>
